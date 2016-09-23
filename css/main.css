@@ -46,6 +46,10 @@ a {
   display: inline-block;
 }
 
+a:hover {
+  background-color: #000;
+}
+
 p {
   text-align: left;
 }
