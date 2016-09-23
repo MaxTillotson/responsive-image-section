@@ -1,3 +1,9 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html{
   box-sizing: border-box;
   -moz-text-size-adjust:100%;
@@ -13,11 +19,13 @@ html{
 
 body{
   background-color: #e2e2e2;
+  padding: 1rem 2rem;
 }
 
 .img-flex {
   width: 100%;
   display: block;
+  vertical-align: middle;
 }
 
 .btn {
