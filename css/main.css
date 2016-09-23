@@ -44,12 +44,12 @@ a {
   text-decoration: none;
   border-radius: 4px;
   display: inline-block;
-
 }
 
 p {
   text-align: left;
 }
+
 .btn {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -111,7 +111,7 @@ p {
 }
 
 @media only screen and (min-width: 90em) {
-  
+
   html {
     font-size: 130%;
     line-height: 1.5;
